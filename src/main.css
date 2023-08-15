@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'TT Hoves';
+  }
+
+  address {
+    @apply text-[0.875rem] leading-normal font-medium text-white not-italic;
+  }
+}
+@layer components {
+  /* swiper-nav */
+  .swiper-button-prev-ph,
+  .swiper-button-next-ph {
+    @apply flex items-center justify-center transition-all duration-200;
+  }
+
+  .swiper-button-prev-ph.swiper-button-disabled,
+  .swiper-button-next-ph.swiper-button-disabled {
+    @apply opacity-30;
+  }
+}
+@layer utilities {
+  a.current-menu-footer {
+    @apply text-orange-200 lg:ml-4;
+  }
+}
