@@ -680,6 +680,12 @@ input[type="range"]:active::-webkit-slider-thumb {
 .mb-11 {
   margin-bottom: 2.75rem;
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .mb-\[2\.5rem\] {
   margin-bottom: 2.5rem;
 }
@@ -736,6 +742,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 .w-10 {
   width: 2.5rem;
+}
+.w-10\/12 {
+  width: 83.333333%;
 }
 .w-12 {
   width: 3rem;
