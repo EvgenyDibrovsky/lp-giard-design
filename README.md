@@ -1,1 +1,0 @@
-# lp-giard-design
