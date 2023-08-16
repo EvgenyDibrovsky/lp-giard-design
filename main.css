@@ -680,6 +680,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin-left: auto;
   margin-right: auto;
 }
+.my-\[3\.875rem\] {
+  margin-top: 3.875rem;
+  margin-bottom: 3.875rem;
+}
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -703,6 +707,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 .mb-\[3\.938rem\] {
   margin-bottom: 3.938rem;
+}
+.mb-\[7\.5rem\] {
+  margin-bottom: 7.5rem;
 }
 .ml-12 {
   margin-left: 3rem;
@@ -742,6 +749,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 .h-8 {
   height: 2rem;
+}
+.h-\[0\.063rem\] {
+  height: 0.063rem;
 }
 .h-\[0\.75rem\] {
   height: 0.75rem;
@@ -913,6 +923,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 .justify-between {
   justify-content: space-between;
 }
+.gap-12 {
+  gap: 3rem;
+}
 .gap-16 {
   gap: 4rem;
 }
@@ -921,6 +934,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 .gap-4 {
   gap: 1rem;
+}
+.gap-6 {
+  gap: 1.5rem;
 }
 .gap-8 {
   gap: 2rem;
@@ -993,6 +1009,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   --tw-bg-opacity: 1;
   background-color: rgb(245 240 236 / var(--tw-bg-opacity));
 }
+.bg-colorLight {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 240 236 / var(--tw-bg-opacity));
+}
 .bg-transparent {
   background-color: transparent;
 }
@@ -1012,6 +1032,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.p-0 {
+  padding: 0px;
 }
 .p-1 {
   padding: 0.25rem;
@@ -1035,11 +1058,12 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .pb-40 {
   padding-bottom: 10rem;
-}
-.pt-\[3\.625rem\] {
-  padding-top: 3.625rem;
 }
 .pt-\[7\.5rem\] {
   padding-top: 7.5rem;
@@ -1060,10 +1084,14 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 .text-textBase {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 16px;
 }
 .text-textBtn {
   font-size: 16px;
+  line-height: 16px;
+}
+.text-textNavFooter {
+  font-size: 14px;
   line-height: 16px;
 }
 .text-titleH1 {
@@ -1209,6 +1237,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 .hover\:bottom-\[1\.2rem\]:hover {
   bottom: 1.2rem;
 }
+.hover\:border-textLight:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 240 236 / var(--tw-border-opacity));
+}
 .hover\:bg-neutral-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
@@ -1219,6 +1251,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 .hover\:text-textGreen:hover {
   --tw-text-opacity: 1;
   color: rgb(27 91 49 / var(--tw-text-opacity));
+}
+.hover\:text-textLight:hover {
+  --tw-text-opacity: 1;
+  color: rgb(245 240 236 / var(--tw-text-opacity));
 }
 .after\:hover\:scale-x-100:hover::after {
   content: var(--tw-content);
