@@ -386,15 +386,22 @@ video {
   display: none;
 }
   html {
-    font-family: 'Arial';
+    font-family: 'Inter';
   }
-  address {
-  font-size: 0.875rem;
+  h1 {
+  font-family: Montserrat;
+}
+  h2 {
+  font-family: Montserrat;
   font-weight: 500;
-  font-style: normal;
-  line-height: 1.5;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+  h2 span {
+  font-family: inter;
+  font-style: italic;
+}
+  h3 {
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
 *, ::before, ::after {
@@ -586,9 +593,6 @@ video {
 .bottom-4 {
   bottom: 1rem;
 }
-.bottom-\[5\.594rem\] {
-  bottom: 5.594rem;
-}
 .left-0 {
   left: 0px;
 }
@@ -750,6 +754,9 @@ video {
 .w-10\/12 {
   width: 83.333333%;
 }
+.w-11\/12 {
+  width: 91.666667%;
+}
 .w-12 {
   width: 3rem;
 }
@@ -765,8 +772,8 @@ video {
 .w-8 {
   width: 2rem;
 }
-.w-9\/12 {
-  width: 75%;
+.w-8\/12 {
+  width: 66.666667%;
 }
 .w-\[0\.75rem\] {
   width: 0.75rem;
@@ -1073,6 +1080,10 @@ video {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1117,31 +1128,39 @@ video {
   line-height: 16px;
 }
 .text-subTitle {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 150%;
 }
 .text-textBase {
   font-size: 16px;
-  line-height: 16px;
+  line-height: 150%;
 }
 .text-textBtn {
   font-size: 16px;
   line-height: 16px;
 }
+.text-textCards {
+  font-size: 14px;
+  line-height: 150%;
+}
 .text-textNavFooter {
   font-size: 14px;
   line-height: 16px;
 }
-.text-textSectionInstagram {
-  font-size: 40px;
+.text-textSectionInstagramMob {
+  font-size: 30px;
   line-height: 120%;
 }
-.text-titleH1 {
-  font-size: 60px;
-  line-height: 70px;
+.text-titleH1Mob {
+  font-size: 40px;
+  line-height: 50px;
 }
-.text-titleH2 {
-  font-size: 48px;
+.text-titleH2Mob {
+  font-size: 40px;
+  line-height: 115%;
+}
+.text-titleH3 {
+  font-size: 28px;
   line-height: 115%;
 }
 .font-medium {
@@ -1326,6 +1345,10 @@ video {
 }
 @media (min-width: 640px) {
 
+  .sm\:w-4\/12 {
+    width: 33.333333%;
+  }
+
   .sm\:w-5\/12 {
     width: 41.666667%;
   }
@@ -1356,6 +1379,10 @@ video {
     min-width: 15.25rem;
   }
 
+  .md\:min-w-\[7\.75rem\] {
+    min-width: 7.75rem;
+  }
+
   .md\:max-w-\[7\.688rem\] {
     max-width: 7.688rem;
   }
@@ -1371,6 +1398,21 @@ video {
   .md\:gap-12 {
     gap: 3rem;
   }
+
+  .md\:text-textSectionInstagram {
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  .md\:text-titleH1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .md\:text-titleH2 {
+    font-size: 48px;
+    line-height: 115%;
+  }
 }
 @media (min-width: 1024px) {
 
@@ -1384,6 +1426,11 @@ video {
 
   .lg\:top-auto {
     top: auto;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .lg\:mx-auto {
@@ -1423,6 +1470,10 @@ video {
     height: 46.063rem;
   }
 
+  .lg\:w-0 {
+    width: 0px;
+  }
+
   .lg\:w-10\/12 {
     width: 83.333333%;
   }
@@ -1431,8 +1482,16 @@ video {
     width: 91.666667%;
   }
 
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .lg\:w-6\/12 {
     width: 50%;
+  }
+
+  .lg\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .lg\:w-9\/12 {
@@ -1468,6 +1527,11 @@ video {
     padding: 0px;
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -1485,6 +1549,18 @@ video {
 
   .xl\:hidden {
     display: none;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:flex-col {
+    flex-direction: column;
+  }
+
+  .xl\:items-start {
+    align-items: flex-start;
   }
 }
 .\[\&\[data-te-dropdown-show\]\]\:block[data-te-dropdown-show] {
