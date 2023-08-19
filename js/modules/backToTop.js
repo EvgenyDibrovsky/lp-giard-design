@@ -1,1 +1,1 @@
-export default function backToTop(){const e=document.querySelector("#backToTop");window.addEventListener("scroll",(()=>{window.pageYOffset>document.documentElement.clientHeight/2?e.classList.remove("hidden","opacity-0"):e.classList.add("hidden","opacity-0")})),e.addEventListener("click",(e=>{e.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})}))}
+export default function backToTop(){document.querySelector("#backToTop").addEventListener("click",(o=>{o.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})}))}

@@ -590,9 +590,6 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
-.bottom-4 {
-  bottom: 1rem;
-}
 .left-0 {
   left: 0px;
 }
@@ -601,9 +598,6 @@ video {
 }
 .right-0 {
   right: 0px;
-}
-.right-4 {
-  right: 1rem;
 }
 .top-0 {
   top: 0px;
@@ -690,6 +684,9 @@ video {
 }
 .mt-2 {
   margin-top: 0.5rem;
+}
+.mt-\[2\.688rem\] {
+  margin-top: 2.688rem;
 }
 .block {
   display: block;
@@ -1283,8 +1280,8 @@ video {
   --tw-content: '';
   content: var(--tw-content);
 }
-.hover\:bottom-\[1\.2rem\]:hover {
-  bottom: 1.2rem;
+.hover\:bottom-\[0\.2rem\]:hover {
+  bottom: 0.2rem;
 }
 .hover\:border-borderGreen:hover {
   --tw-border-opacity: 1;
@@ -1397,11 +1394,6 @@ video {
 
   .md\:gap-12 {
     gap: 3rem;
-  }
-
-  .md\:text-textSectionInstagram {
-    font-size: 40px;
-    line-height: 120%;
   }
 
   .md\:text-titleH1 {
