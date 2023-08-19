@@ -27,7 +27,7 @@ export default function initSearchBox() {
   }
 
   searchIcon.addEventListener('click', function (event) {
-    event.stopPropagation(); // Останавливаем всплытие, чтобы предотвратить мгновенное закрытие
+    event.stopPropagation();
     toggleSearch();
   });
 }

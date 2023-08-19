@@ -14,7 +14,7 @@ export default function mobileMenu() {
     mobileNavigation.classList.toggle('translate-y-full');
     menuBtn.classList.toggle('rotate-180');
     document.body.classList.toggle('overflow-hidden');
-    document.documentElement.classList.toggle('overflow-hidden'); // Добавленная строка
+    document.documentElement.classList.toggle('overflow-hidden');
     updateAriaAttr();
   };
 
@@ -22,7 +22,7 @@ export default function mobileMenu() {
     mobileNavigation.classList.add('translate-y-full');
     menuBtn.classList.remove('rotate-180');
     document.body.classList.remove('overflow-hidden');
-    document.documentElement.classList.remove('overflow-hidden'); // Добавленная строка
+    document.documentElement.classList.remove('overflow-hidden');
     updateAriaAttr();
   };
 

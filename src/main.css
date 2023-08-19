@@ -4,12 +4,22 @@
 
 @layer base {
   html {
-    font-family: 'Arial';
+    font-family: 'Inter';
   }
-  address {
-    @apply text-[0.875rem] leading-normal font-medium text-white not-italic;
+  h1 {
+    @apply font-[Montserrat];
+  }
+  h2 {
+    @apply font-[Montserrat] font-medium;
+  }
+  h2 span {
+    @apply font-[inter] italic;
+  }
+  h3 {
+    @apply font-[Montserrat] font-medium;
   }
 }
+
 @layer components {
   /* swiper-nav */
   .swiper-button-prev-ph,
@@ -19,10 +29,5 @@
   .swiper-button-prev-ph.swiper-button-disabled,
   .swiper-button-next-ph.swiper-button-disabled {
     @apply opacity-30;
-  }
-}
-@layer utilities {
-  a.current-menu-footer {
-    @apply text-orange-200 lg:ml-4;
   }
 }
